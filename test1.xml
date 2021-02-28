@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Request>
+    <Subscriber>
+        <name>Alice</name>
+        <age>30</age>
+    </Subscriber>
+    <Contracts>
+        <Contract>
+            <id>1</id>
+            <term>30</term>
+            <price>45.0</price>
+            <taxDetails>
+                <taxDetail>
+                    <amount>12</amount>
+                </taxDetail>
+                <taxDetail>
+                    <amount>13</amount>
+                </taxDetail>
+            </taxDetails>
+        </Contract>
+        <Contract>
+            <id>2</id>
+            <term>15</term>
+            <price>25.0</price>
+            <taxDetails>
+                <taxDetail>
+                    <amount>12</amount>
+                </taxDetail>
+                <taxDetail>
+                    <amount>13</amount>
+                </taxDetail>
+            </taxDetails>
+        </Contract>
+    </Contracts>
+</Request>
